@@ -1,0 +1,45 @@
+{
+    //editor
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "editor.semanticHighlighting.enabled": false,
+    "files.autoSave": "afterDelay",
+  
+    //Explore
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+  
+    //Workbench
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",  
+    "workbench.iconTheme": "material-icon-theme",  
+    "workbench.editor.labelFormat": "short",
+    
+    //LiveServer  
+    "liveServer.settings.donotShowInfoMsg": false,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    
+    //Code Runner
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {    
+      "python": "cls ; python -u",   
+    },
+    "code-runner.ignoreSelection": true,
+    "python.defaultInterpreterPath": "python",
+  
+    // terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.profiles.windows": {
+      "Git Bash": {
+        "source": "Git Bash"
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+  }
